@@ -42,12 +42,20 @@ body {
     
 .apresentacao__ancoras {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__ancoras__subtitulo {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px
 }
 
 .apresentacao__ancoras__ancora {
-    background-color: #F0E491;
-    width: 280px;
+    border: 2px solid #BBC863;
+    width: 378px;
     text-align: center;
     border-radius: 16px;
     font-family: "Poppins", sans-serif;
@@ -55,6 +63,6 @@ body {
     font-weight: 600;
     padding: 21.5px 0px;
     text-decoration: none;
-    color: #658C58;
+    color: #F6F6F6;
 }
 
